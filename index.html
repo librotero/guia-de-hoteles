@@ -1,223 +1,458 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" dir="ltr">
+
 <head>
+    <meta charset="utf-8" <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Próceres</title>
+    <!--bootstrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-   
-
-    <title>Curso Bootstrap</title>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Scrollreve-al-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
-<!--comienza barra-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Marcopolo</a>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">¿Quienes somos?</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Preguntanos" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-  </div>
-</nav>
-<!--finaliza barra-->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="palabraencabezado">Hoteles</h1>
-  
- 
 
-</div>
-</div>
-<!--botones-->
 
 <body>
-<hr>
-<center><div class="bg-primary; d-flex w-50 ">
 
 
-<div class="card">
-<div class="cardo">
-<h1>Encuentranos</h1>
-
-<p>Historia cultural y literaria: delimitación del objeto de estudio, problemática de la disciplina. Periodización cultural y literaria. Relación entre la cultura y los procesos históricos. Relación entre 
-historia, teoría y crítica literarias. Pervivencias: intertextualidades, motivos, tópicos.<p>
-</div>
-</div>
-
-<div class="card">
-<div class="cardo">
-<h1>Encuentranos</h1>
-
-<p>Historia cultural y literaria: delimitación del objeto de estudio, problemática de la disciplina. Periodización cultural y literaria. Relación entre la cultura y los procesos históricos. Relación entre 
-historia, teoría y crítica literarias. Pervivencias: intertextualidades, motivos, tópicos.<p>
-</div>
-</div>
 
 
-<div class="card">
-<div class="cardo">
-<h1>Encuentranos</h1>
-<p>Historia cultural y literaria: delimitación del objeto de estudio, problemática de la disciplina. Periodización cultural y literaria. Relación entre la cultura y los procesos históricos. Relación entre 
-historia, teoría y crítica literarias. Pervivencias: intertextualidades, motivos, tópicos.<p>
-</div>
-</div>
-
-</div></center>
-<hr>
+    <!--barra de navegacion-->
 
 
-<!--cuadros de texto-->
+    <nav class="contamos navbar navbar-expand-md navbar-light fixed-top">
+
+        <div class="proce">
+            <a class="navbar-brand" href="#index.html"><img src="img/1234.png" class="d-block w-100"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse mr-5 navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-15px ml-auto">
 
 
- <!-- COMIENZAN LAS TARJETAS DE HOTELS-->
+                <li class="nav-item">
+                    <a class="letra nav-link" href="index.html#header">
+                        <h5 class="letra"><b>Quienes somos</b></h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="letra nav-link" href="index.html#info3">
+                        <h5 class="letra"><b>Variedades</b></h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="letra nav-link" href="#contact2">
+                        <h5 class="letra"><b>Contactanos</b></h5>
+                    </a>
+                </li>
 
- <center><div class="row row-cols-1 row-cols-md-3 w-50">
-  <div class="col mb-4 d-flex flex-column">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
 
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <!--jumbo-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a class="nav-link" href="#info3"> <img src="img/1.png" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item">
+                <a class="nav-link" href="#header"> <img src="img/2.png" class="d-block w-100"></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-  </div>
-<!-- 2 caja -->
-<div class="col mb-4">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- 3 caja -->
-<div class="col mb-4">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
-
-    </div>
-  </div>
-  <!-- 4 caja -->
-  <div class="col mb-4">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
-
-    </div>
-  </div>
-
-<!-- 5 caja -->
-  <div class="col mb-4">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
-
-    </div>
-  </div>
-<!-- 6 caja -->
-  <div class="col mb-4">
-    <div class="card h-100">
-   <div class="card-body">
-        <h3 class="card-title">Barcelona</h3>
-        <p class="card-text">En la época en que trabajaba como compositora para dicha discográfica, su voz llamó la atención del artista Akon, quien la hizo firmar un contrato con Kon Live Distribution.</p>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Reservá</button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- finaliza-->
-</div>
- </center>
- <nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav>
- 
-
- 
- 
- 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-
-    <footer>
-		<div class="footer-container">
-			<div class="footer-main">
-				<div class="footer-columna">
-					<h3>Suscríbete</h3>
-					<input type="email" placeholder="Escriba su Correo">
-					<input type="submit" value=" Suscribirse">
-				</div>
-
-				<div class="footer-columna">
-					<h3>Dirección</h3>
-					<span class="fa fa-map-marker"><p>martin zapata 488 ciudad de mendoza</p></span>
-					<span class="fa fa-phone"><p>261 5059621</p></span>
-					<span class="fa fa-envelope"><p>morenogarciajesuseduardo@gmail.com</p></span>
-				</div>
-
-				<div class="footer-columna">
-					<h3>Sobre Nosotros</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur repellat autem, error iste odio atque eum assumenda rem aliquam, consequatur excepturi reiciendis corrupti velit aperiam?</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="footer-copy-redes">
-			<div class="main-copy-redes">
-				<div class="footer-copy">
-					&copy; 2020, Todos los derechos reservados
-				</div>
-				<div class="footer-redes">
-					<a href="#" class="fa fa-facebook"></a>
-					<a href="#" class="fa fa-twitter"></a>
-					<a href="#" class="fa fa-youtube-play"></a>
-					<a href="#" class="fa fa-github"></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <!--jumbo-->
 
 
 
 
+    <!--Header-->
+
+    <header id="header">
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="contar container mt-10">
+            <div class="row">
+                <div class="col-md-6 my-auto">
+                    <div class="header-content-left">
+                        <img src="img/enter.jpg" class="img-fluid rounded">
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 my-auto mt-5">
+                    <div class="header-content-right">
+                        <div class="card-body">
+                            <h1>Próceres
+                                <h1>
+                                    <div class="card-subtitle">
+                                        <p class="colorete">Libre con cada sorbo</p>
+                                    </div>
+                                    <p class="text">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                        Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas </p>
+                                    <p class="text">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                        Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas </p>
+                                    <p class="text">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                        Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas </p>
+
+                                    <div>
+
+                                        <br>
+                                        <button type="button" class="btn btn-light">Leer más</button>
+                                    </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+    </header>
+
+
+
+
+
+
+
+
+    <!--testimonio-->
+    <section id="testimonial">
+        <div class="container">
+            <br>
+            <br>
+            <div Class="row">
+                <div class="col-md-6">
+                    <p>La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente Saccharomyces
+                        cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
+                    </p>
+                    <p class="h4">- Ryan Ray</p>
+
+                </div>
+                <div class="col-md-6">
+                    <p>La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente Saccharomyces
+                        cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
+                    </p>
+                    <p class="h4 ">- Ryan Ray</p>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--seccion variedades-->
+    <section id="info3">
+        <br>
+        <br>
+        <br>
+        <div class="container mx-auto">
+            <div class="row my-5">
+
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-6 my-auto mx-auto">
+
+                                    <div class="cato card-body">
+                                        <h2>San Martin</h2>
+                                        <p class="text ">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
+                                        </p>
+                                        <br>
+
+                                        <div class="card-subtitle">
+                                            <p>No te quedes sin el tuyo</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6 mx-auto ml-5">
+                                    <a class="boton img-fluid" href="compra.html"><img src="img/botella.jpg" width="350"></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 my-auto mx-auto">
+
+                                    <div class="cato card-body">
+                                        <h2>San Martin</h2>
+                                        <p class="text">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
+                                        </p>
+                                        <br>
+
+                                        <div class="card-subtitle">
+                                            <p>No te quedes sin el tuyo</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6 mx-auto ml-5">
+                                    <a class="boton img-fluid" href="compra.html"><img src="img/botella.jpg" width="350"></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-6 my-auto mx-auto">
+
+                                    <div class="cato card-body">
+                                        <h2>San Martin</h2>
+                                        <p class="text">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
+                                        </p>
+                                        <br>
+
+                                        <div class="card-subtitle">
+                                            <p>No te quedes sin el tuyo</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6 mx-auto ml-5">
+                                    <a class="boton img-fluid" href="compra.html"><img src="img/botella.jpg" width="350"></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button " data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button " data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+
+
+
+
+                    <!--este -->
+
+                    <section id="info-4">
+                        <div class=" conta container mx-auto">
+                            <div class="row my-5 mx-auto">
+
+
+
+
+                                <div class="col-md-4">
+                                    <center>
+                                        <svg width="2em" height="2em " viewBox="0 0 16 16" class="bi bi-bag " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd " d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+                                              </svg>
+
+                                    </center>
+
+
+
+                                    <div class="card-body">
+                                        <p class="text1 mt-3">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div class="col-md-4">
+                                    <center>
+                                        <svg width="2em" height="2em " viewBox="0 0 16 16" class="bi bi-suit-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                                      </svg>
+
+                                    </center>
+
+
+                                    <div class="card-body">
+                                        <p class="text1 mt-3">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <center>
+                                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0
+                        4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                      </svg>
+                                    </center>
+
+                                    <div class="card-body">
+                                        <p class="text1 mt-3">La cerveza (del latín cerevisĭa)1​ es una bebida alcohólica, no destilada, de sabor amargo, que se fabrica con granos de cebada germinados u otros cereales cuyo almidón se fermenta en agua con levadura (principalmente
+                                            Saccharomyces
+                                        </p>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <!--este -->
+
+                </div>
+
+            </div>
+    </section>
+    <!--seccion informacion 3-->
+
+    <!--formulario-->
+    <footer class="ficha" id="contact2">
+        <div class="container mt-5 ">
+            <div class="row ">
+                <div class="col-md-5 mt-5 mb-5 ">
+                    <form class="card ">
+                        <div class="card-body ">
+
+                            <div class="row ">
+                                <div class="form-group col-md-6 ">
+                                    <input type="text " placeholder="Name " class="form-control ">
+                                </div>
+
+                                <div class="form-group col-md-6 ">
+                                    <input type="text " placeholder="last name " class="form-control ">
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <input type="email " placeholder="Email " class="form-control ">
+                                <div class="form-row ">
+                                    <div class="form-group col-md-6 ">
+                                        <label class="mt-2 ml-1 " for="domicilio ">Domicilio</label>
+                                        <input type="text " class="form-control " id="domicilio " placeholder="Ingrese su domicilio ">
+                                    </div>
+
+                                    <div class="form-group col-sm-6 ">
+                                        <label class="mt-2 ml-1 " for="provincia ">Provincia</label>
+                                        <select id="provincia " class="form-control col-sm-6 ">
+                                                        <option>. . .</option>
+                                                        <option>Capital Federal</option>
+                                                        <option>Buenos Aires</option>
+                                                        <option>Córdoba</option>
+                                                        <option>Mendoza</option>
+                                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea rows="10" cols="30" placeholder="message" class="form-control"></textarea>
+                                <br>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form.Check-label" for="gridCheck">Quiero que me contacten</label>
+                                    </div>
+
+                                    <button type="button1" class="btn btn-light mt-5">Enviar</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-6 my-auto mx-auto">
+                    <h2 class="textofinal">Si te enamoraste de nuestra cerveza y te atrevés a probar este espíritu de libertad, escribinos.</h2>
+                </div>
+                </form>
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!--bootstrap 4 script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+
+
+
+        sr.reveal('.conta', {
+            duration: 2000,
+            delay: 1000,
+            origin: 'buttom',
+
+        });
+
+
+        document.querySelectorAll('a[href^="# "]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
 </body>
 
