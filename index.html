@@ -26,34 +26,36 @@
 
     <nav class="contamos navbar navbar-expand-md navbar-light fixed-top">
 
-        <div class="proce">
-            <a class="navbar-brand" href="#index.html"><img src="img/1234.png" class="d-block w-100"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-        <div class="collapse mr-5 navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-15px ml-auto">
+        <div class="container">
+            <div class="proce">
+                <a class="navbar-brand" href="#index.html"><img src="img/1234.png" class="d-block w-100"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="collapse mr-5 navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-15px ml-auto">
 
 
-                <li class="nav-item">
-                    <a class="letra nav-link" href="index.html#header">
-                        <h5 class="letra"><b>Quienes somos</b></h5>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="letra nav-link" href="index.html#info3">
-                        <h5 class="letra"><b>Variedades</b></h5>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="letra nav-link" href="#contact2">
-                        <h5 class="letra"><b>Contactanos</b></h5>
-                    </a>
-                </li>
+                    <li class="nav-item">
+                        <a class="letra nav-link" href="index.html#header">
+                            <h5 class="letra"><b>Quienes somos</b></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letra nav-link" href="index.html#info3">
+                            <h5 class="letra"><b>Variedades</b></h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="letra nav-link" href="#contact2">
+                            <h5 class="letra"><b>Contactanos</b></h5>
+                        </a>
+                    </li>
 
 
-            </ul>
+                </ul>
+            </div>
         </div>
 
     </nav>
@@ -119,12 +121,13 @@
                                     <div>
 
                                         <br>
-                                        <button type="button" class="btn btn-light">Leer más</button>
+                                        <a href="#contacto"><button type="button" class="btn btn-light" data-toggle="modal" data-target="#contacto">Leer más</button></a>
                                     </div>
 
 
                         </div>
                     </div>
+
 
 
                 </div>
@@ -138,7 +141,25 @@
 
 
 
-
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog">
+        <div class="modal-dialog mt-5px" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleLeModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -153,6 +174,9 @@
                         cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
                     </p>
                     <p class="h4">- Ryan Ray</p>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Puedes acceder a mas herramientas">
+                        entra
+                      </button>
 
                 </div>
                 <div class="col-md-6">
@@ -160,6 +184,9 @@
                         cerevisiae o Saccharomyces pastorianus) y se aromatiza a menudo con lúpulo, entre otras plantas
                     </p>
                     <p class="h4 ">- Ryan Ray</p>
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Puedes acceder a mas herramientas">
+                        entra
+                      </button>
                     <br>
                     <br>
 
@@ -201,7 +228,9 @@
 
 
                                 <div class="col-md-6 mx-auto ml-5">
-                                    <a class="boton img-fluid" href="compra.html"><img src="img/botella.jpg" width="350"></a>
+                                    <center>
+                                        <a class="boton img-fluid" href="compra.html"><img src="img/botella.jpg" width="350"></a>
+                                    </center>
 
 
                                 </div>
@@ -353,7 +382,7 @@
 
     <!--formulario-->
     <footer class="ficha" id="contact2">
-        <div class="container mt-5 ">
+        <div class="container">
             <div class="row ">
                 <div class="col-md-5 mt-5 mb-5 ">
                     <form class="card ">
@@ -455,5 +484,50 @@
     </script>
 
 </body>
+
+<footer>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <b><h4>Encontranos</h4></b>
+                </div>
+
+                <div class="col-md-6 mx-auto d-flex">
+                    <div class="colo d-flex">
+                        <a href=""><img src="img/whatsapp.png" class="d-block"></a>
+                    </div>
+                    <div class="colo d-flex">
+                        <a href=""><img src="img/whatsapp.png" class="d-block"></a>
+                    </div>
+                    <div class="colo d-flex">
+                        <a href=""><img src="img/whatsapp.png" class="d-block"></a>
+                    </div>
+                    <div class="colo d-flex">
+                        <a href=""><img src="img/whatsapp.png" class="d-block"></a>
+                    </div>
+                    <div class="colo d-flex">
+                        <a href=""><img src="img/whatsapp.png" class="d-block"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </center>
+    <br>
+
+
+    <div class="container ml-30">
+        <d class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> Proceres Cervecería</a>
+        </d>
+    </div>
+
+
+</footer>
 
 </html>
