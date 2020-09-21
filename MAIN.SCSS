@@ -1,0 +1,72 @@
+$color-barras: #ffffff00;
+$color-cuerpo: rgb(255, 255, 255);
+$color-barranav: #000000;
+$color-secciones: #ffee00;
+$color-letras-secciones: #ffffff;
+$color-botones: #d400ff;
+
+/*barra de navegación*/
+
+nav {
+    background-color: $color-barras;
+    h5 {
+        color: $color-barranav;
+    }
+}
+
+
+/*Primera pieza*/
+
+header {
+    img {
+        margin-top: 160px;
+    }
+    .card-body {
+        margin-top: 125px;
+    }
+    text {
+        font-size: 12px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+/* segunda pieza*/
+
+.conta {
+    margin-top: 75px;
+}
+
+
+/*botones*/
+
+.btn {
+    background-color: $color-botones;
+    color: white;
+}
+
+body {
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.casete {
+    margin-top: 125px;
+}
+
+footer {
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 75px;
+}
+
+.icon {
+    margin-left: 50px;
+}
+
+.page-footer {
+    margin-top: 75px;
+}
