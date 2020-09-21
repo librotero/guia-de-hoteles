@@ -1,71 +1,61 @@
+@charset "UTF-8";
+/*barra de navegación*/
+nav {
+  background-color: #ffffff00;
+}
+
+nav h5 {
+  color: #000000;
+}
+
+/*Primera pieza*/
+header img {
+  margin-top: 160px;
+}
+
+header .card-body {
+  margin-top: 125px;
+}
+
+header text {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* segunda pieza*/
+.conta {
+  margin-top: 75px;
+}
+
+/*botones*/
+.btn {
+  background-color: #d400ff;
+  color: white;
+}
+
 body {
-    font-family: 'Rubik', sans-serif;
+  background-image: url(img/1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.text {
-    font-size: 15px;
+.casete {
+  margin-top: 125px;
 }
 
-.colorete {
-    color: rgb(227, 27, 253);
+footer {
+  background-image: url(img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 75px;
 }
 
-#testimonial {
-    background-color: rgba(255, 225, 55, 0.911);
-    padding: 50px 0 30px 0;
-    text-align: center;
-    margin-top: 40px;
+.icon {
+  margin-left: 50px;
 }
 
-#info-two {
-    background-color: rgba(240, 93, 233, 0.623);
-    padding: 50px 0 30px 0;
-    margin-top: 40px;
+.page-footer {
+  margin-top: 75px;
 }
-
-.button1 {
-    color: rgb(156, 54, 252);
-}
-
-.ficha {
-    background-color: rgba(255, 225, 55, 0.911);
-}
-
-.boton {
-    color: rgb(255, 255, 255);
-}
-
-.card-title2 {
-    color: #ff8902;
-}
-
-.card-text {
-    color: #636363;
-    font-size: 12px;
-}
-
-.contamos {
-    background-color: rgba(255, 225, 55, 0);
-    color: rgb(255, 255, 255);
-}
-
-.contamos1 {
-    background-color: #e9b91b00;
-}
-
-.carousel {
-    padding: 5px 0 20px 0;
-}
-
-.text1 {
-    text-align: center;
-    font-size: 13px;
-}
-
-.proce {
-    margin-left: 5px;
-}
-
-.letra {
-    color: rgb(68, 67, 67);
-}
+/*# sourceMappingURL=main.css.map */
