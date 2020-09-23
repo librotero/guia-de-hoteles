@@ -1,0 +1,29 @@
+footer {
+  background-image: url(img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 75px;
+}
+
+.conta {
+  margin-top: 275px;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.proce {
+  margin-top: 1px;
+}
+
+.icon {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.texto {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+/*# sourceMappingURL=compras.css.map */
